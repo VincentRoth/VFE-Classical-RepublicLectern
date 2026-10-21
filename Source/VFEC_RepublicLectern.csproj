@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>VFEC_RepublicLectern</AssemblyName>
+    <RootNamespace>VFEC_RepublicLectern</RootNamespace>
+    <Nullable>disable</Nullable>
+    <LangVersion>10</LangVersion>
+    <!-- Outputs straight into the mod Assemblies folder so you never need to copy manually -->
+    <OutputPath>..\1.6\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <!-- The 1.7 project lives in Source\1.7 and has its own obj -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);1.7\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <!-- Adjust these paths for your machine -->
+  <PropertyGroup>
+    <RimWorldPath Condition="'$(RimWorldPath)'==''">C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldPath>
+    <RimWorldModPath Condition="'$(RimWorldModPath)'==''">C:\Program Files (x86)\Steam\steamapps\workshop\content\294100</RimWorldModPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldPath)\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldPath)\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(RimWorldPath)\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(RimWorldModPath)\2009463077\1.6\Assemblies\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Vanilla Expanded Framework (VFEC.dll references it) -->
+    <Reference Include="VEF">
+      <HintPath>$(RimWorldModPath)\2023507013\1.6\Assemblies\VEF.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- VFE Classical: Dialog_SenatorInfo, WorldComponent_Senators, FactionExtension_SenatorInfo -->
+    <Reference Include="VFEC">
+      <HintPath>$(RimWorldModPath)\2787850474\1.6\Assemblies\VFEC.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>dibolic.VFEClassical.RepublicLectern</packageId>
+  <name>VFE Classical - Republic Lectern</name>
+  <author>Dibolic</author>
+  <description>A lectern (pupitre) building that serves as a management hub for the Republic factions of Vanilla Factions Expanded - Classical. It opens a tabbed window, gives quick read-only access to each Republic's senators, and lets other mods add their own tabs through Lectern_PanelDef.
+
+Work in progress: skeleton only.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VFE.Classical</packageId>
+      <displayName>Vanilla Factions Expanded - Classical</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2787850474</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VFE.Classical</li>
+  </loadAfter>
+</ModMetaData>

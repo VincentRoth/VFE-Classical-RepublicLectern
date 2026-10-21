@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <!-- Defs, Textures and Languages live at the mod root; only the assemblies are per version. -->
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+  </v1.6>
+  <!-- Prepared for later: uncomment (and add 1.7 to supportedVersions) once the 1.7 build exists.
+  <v1.7>
+    <li>/</li>
+    <li>1.7</li>
+  </v1.7>
+  -->
+</loadFolders>
