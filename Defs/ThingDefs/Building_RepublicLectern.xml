@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Costs 40 of a metallic / woody / stony material (the Ideology lectern costs 50).
+       Graphic_Multi: the west view is the east one, mirrored. -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>VFECRL_RepublicLectern</defName>
+    <label>Republic lectern</label>
+    <description>A slanted platform bearing the scrolls of the Republic. From it you can survey the Republics you have rallied, consult their senators and, with other mods, manage their affairs.</description>
+    <thingClass>VFEC_RepublicLectern.Building_RepublicLectern</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/RepublicLectern/RepublicLectern</texPath>
+      <drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.8, 1, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2030</uiOrder>
+    <fillPercent>0.35</fillPercent>
+    <selectable>true</selectable>
+    <useHitPoints>true</useHitPoints>
+    <size>(1,1)</size>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Beauty>10</Beauty>
+      <Flammability>1.0</Flammability>
+      <Mass>25</Mass>
+    </statBases>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li MayRequire="OskarPotocki.VFE.Tribals">VFET_Culture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

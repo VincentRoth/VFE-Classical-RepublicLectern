@@ -13,7 +13,7 @@ namespace VFEC_RepublicLectern
 
         static RepublicLecternMod()
         {
-            Log.Message("[VFEC RepublicLectern] Loaded (skeleton).");
+            Log.Message("[VFEC RepublicLectern] Loaded.");
         }
     }
 }

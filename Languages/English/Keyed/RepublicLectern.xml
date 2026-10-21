@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFECRL.Lectern.Title>Republic lectern</VFECRL.Lectern.Title>
+  <VFECRL.Lectern.NoPanels>No tab available.</VFECRL.Lectern.NoPanels>
+  <VFECRL.Gizmo.Open>Open the lectern</VFECRL.Gizmo.Open>
+  <VFECRL.Gizmo.OpenDesc>Open the Republic lectern window.</VFECRL.Gizmo.OpenDesc>
+  <VFECRL.Gizmo.Senators>Senators: {0}</VFECRL.Gizmo.Senators>
+  <VFECRL.Gizmo.SenatorsDesc>View the senators of {0}.</VFECRL.Gizmo.SenatorsDesc>
+  <VFECRL.Senators.None>No Republic with senators on this world.</VFECRL.Senators.None>
+  <VFECRL.Senators.Rallied>Rallied</VFECRL.Senators.Rallied>
+  <VFECRL.Senators.Favored>{0}/{1} senators favorable</VFECRL.Senators.Favored>
+  <VFECRL.Senators.View>View senators</VFECRL.Senators.View>
+</LanguageData>

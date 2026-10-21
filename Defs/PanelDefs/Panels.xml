@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Other mods add their own tabs with a LecternPanelDef and a LecternPanelWorker subclass. -->
+  <VFEC_RepublicLectern.LecternPanelDef>
+    <defName>VFECRL_Senators</defName>
+    <label>Senators</label>
+    <description>The Republics' senators.</description>
+    <order>0</order>
+    <workerClass>VFEC_RepublicLectern.Panel_Senators</workerClass>
+  </VFEC_RepublicLectern.LecternPanelDef>
+
+</Defs>

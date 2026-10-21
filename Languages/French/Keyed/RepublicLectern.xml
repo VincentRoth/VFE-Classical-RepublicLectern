@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VFECRL.Lectern.Title>Pupitre de la République</VFECRL.Lectern.Title>
+  <VFECRL.Lectern.NoPanels>Aucun onglet disponible.</VFECRL.Lectern.NoPanels>
+  <VFECRL.Gizmo.Open>Ouvrir le pupitre</VFECRL.Gizmo.Open>
+  <VFECRL.Gizmo.OpenDesc>Ouvre la fenêtre du Pupitre de la République.</VFECRL.Gizmo.OpenDesc>
+  <VFECRL.Gizmo.Senators>Sénateurs : {0}</VFECRL.Gizmo.Senators>
+  <VFECRL.Gizmo.SenatorsDesc>Consulter les sénateurs de {0}.</VFECRL.Gizmo.SenatorsDesc>
+  <VFECRL.Senators.None>Aucune république avec des sénateurs sur ce monde.</VFECRL.Senators.None>
+  <VFECRL.Senators.Rallied>Ralliée</VFECRL.Senators.Rallied>
+  <VFECRL.Senators.Favored>{0}/{1} sénateurs favorables</VFECRL.Senators.Favored>
+  <VFECRL.Senators.View>Voir les sénateurs</VFECRL.Senators.View>
+</LanguageData>
