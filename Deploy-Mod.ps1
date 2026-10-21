@@ -11,7 +11,7 @@
     Target folder. Default: C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VFEClassical_RepublicLectern
 
 .PARAMETER Versions
-    RimWorld versions whose DLL must exist before deploying. Default: 1.6 (add 1.7 once it is built).
+    RimWorld versions whose DLL must exist before deploying. Default: 1.6 and 1.7.
 
 .PARAMETER WhatIf
     Lists what would be copied / deleted without changing anything.
@@ -23,7 +23,7 @@
 [CmdletBinding()]
 param(
     [string]$Destination = 'C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VFEClassical_RepublicLectern',
-    [string[]]$Versions = @('1.6'),
+    [string[]]$Versions = @('1.6', '1.7'),
     [switch]$WhatIf
 )
 
