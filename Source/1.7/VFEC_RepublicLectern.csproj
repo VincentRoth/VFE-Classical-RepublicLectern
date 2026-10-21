@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <!-- Prepared for RimWorld 1.7 (not built yet): same sources as the 1.6 project, net10.0 target. -->
+  <!-- RimWorld 1.7: same sources as the 1.6 project, net10.0 target. -->
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>VFEC_RepublicLectern</AssemblyName>

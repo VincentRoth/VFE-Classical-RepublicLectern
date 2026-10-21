@@ -2,7 +2,8 @@
 <Defs>
 
   <!-- Costs 40 of a metallic / woody / stony material (the Ideology lectern costs 50).
-       Graphic_Multi: the west view is the east one, mirrored. -->
+       Graphic_Multi: the west view is the east one, mirrored.
+       CutoutComplex: masks are RepublicLectern_northm / _eastm / _southm; the material colour applies to their red area. -->
   <ThingDef ParentName="BuildingBase">
     <defName>VFECRL_RepublicLectern</defName>
     <label>Republic lectern</label>
@@ -12,7 +13,7 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Things/Building/RepublicLectern/RepublicLectern</texPath>
       <drawSize>(1,1)</drawSize>
-			<shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.8, 1, 0.8)</volume>
       </shadowData>
